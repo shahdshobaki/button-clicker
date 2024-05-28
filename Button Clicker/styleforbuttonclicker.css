@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(159, 178, 184);
+    height: 50px;
+    width: 70%;
+    margin: 0% 15%;
+    color: white;
+}
+.btn{
+    background-color: rgb(19, 145, 187);
+    padding: 2px;
+    margin-right: 20px;
+    width: 60px;
+    font:bold 15px cursive;
+    box-shadow: 2px 2px black;
+}
+.input-one{
+border:2px solid black;
+padding: 3px;
+width: 30%;
+}
+h1{
+    margin-left: 20px;
+    color: black;
+}
+/* boxes
+____________________________________ */
+
+.container{
+    display:flex;
+   
+   
+
+}
+.container > div:first-child{
+    margin: 2%  0% 2% 15%;
+    width: 40%
+}
+.first-box{
+    position: relative;
+    border: 4px solid black;
+}
+.seconed-box{
+    position: relative;
+    border: 4px solid black;
+    margin-top: 20px;
+}
+.third-box{
+    border: 4px solid black;
+    margin: 2% 0% 2% 9.5%;
+    width: 20%;
+    height: 130px;
+}
+.btn-one{
+  position: absolute;
+  bottom: 20px;
+  left: 5%;
+  background-color: rgb(216, 143, 47);
+  box-shadow: 3px 3px black;
+  padding: 3px;
+  width: 20%;
+}
+span{
+    text-decoration: underline;
+    color: blue;
+}
+p{
+   margin: 10px 0px 0px 30px;
+
+}
+.par{
+position: relative;
+bottom: 50px;
+left: 120px;
+}
+.third-box h1{
+    font: bold 25px cursive;
+}
+#final{
+    background-color: rgb(117, 186, 117);
+    padding: 3px;
+    box-shadow: 3px 3px black;
+    width: 70%;
+    margin: 5% 6% 0% 15%;
+}
